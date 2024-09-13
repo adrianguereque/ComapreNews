@@ -1,4 +1,3 @@
-```markdown
 # CompareNews
 
 CompareNews is a web application that fetches and compares news articles from The Guardian and The New York Times based on a search query. It allows users to search for specific topics and displays results from both news sources for comparison.
@@ -10,7 +9,7 @@ CompareNews is a web application that fetches and compares news articles from Th
 - **Other**: Axios, Nodemon, dotenv
 
 ## Project Structure
-```
+
 CompareNews/
 │
 ├── backend/                    # Node.js backend
@@ -32,7 +31,7 @@ CompareNews/
 │   ├── package.json            # Frontend dependencies
 │   └── README.md               # Frontend documentation
 └── README.md                   # Main project documentation
-```
+
 
 ## Installation
 
