@@ -64,6 +64,7 @@ jobs:
       - name: Unzip artifact for deployment
         run: |
           unzip release.zip
+          ls -R  # Optional: List files to verify the structure
           cd backend
           npm install --production
           cd ..
