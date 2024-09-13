@@ -8,31 +8,6 @@ CompareNews is a web application that fetches and compares news articles from Th
 - **APIs**: The Guardian API, The New York Times API
 - **Other**: Axios, Nodemon, dotenv
 
-## Project Structure
-
-CompareNews/
-│
-├── backend/                    # Node.js backend
-│   ├── src/
-│   │   ├── routes/             # Express routes
-│   │   ├── services/           # Services handling API requests
-│   │   ├── utils/              # Utility files
-│   │   └── server.js           # Server setup
-│   ├── .env                    # Environment variables
-│   ├── package.json            # Backend dependencies
-│   └── README.md               # Backend documentation
-│
-├── frontend/                   # React frontend
-│   ├── src/
-│   │   ├── components/         # React components
-│   │   ├── services/           # Service files for API communication
-│   │   └── App.js              # Main React component
-│   ├── .env                    # Frontend environment variables
-│   ├── package.json            # Frontend dependencies
-│   └── README.md               # Frontend documentation
-└── README.md                   # Main project documentation
-
-
 ## Installation
 
 ### Prerequisites
