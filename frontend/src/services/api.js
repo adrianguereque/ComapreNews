@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { normalizeGuardianAd, normalizeTimesAd } from '../utils/normalizeArticles';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:3000';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'comapre-news-backend-85kujn88l-benjamin-belloeils-projects.vercel.app';
 
 export async function searchAds(query) {
   try {
