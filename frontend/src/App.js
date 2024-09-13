@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>News Comparison Web App</h1>
+        <h1>News Comparison Generator</h1>
       </header>
       <main>
         <SearchForm onSearch={handleSearch} />
